@@ -368,12 +368,59 @@ a{
 
 .connect__block{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 195px;
+}
+
+.connect__title .title__desc{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.block-social__icon{
+    display: flex;
+    gap: 16px;
 }
 
 .form{
     display: flex;
     flex-direction: column;
+}
+
+.form__title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.input__form{
+    width: 472px;
+    height: 62px;
+    background-color: rgba(245, 245, 245, 0.11);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(245, 245, 245, 0.5);
+    padding: 19px 16px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.input__form-text{
+    width: 472px;
+    height: 98px;
+}
+
+.input__btn{
+    width: 174px;
+    height: 50px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
 }
 
 
