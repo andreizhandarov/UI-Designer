@@ -63,6 +63,14 @@ a{
     color: var(--primary);
 }
 
+.burger-menu{
+    display: none;
+}
+
+.nav__bar_mobile{
+    display: none;
+}
+
 .accent{
     background-color: var(--accent);
     overflow: hidden;
@@ -488,6 +496,29 @@ a{
     .nav__header{
         display: none;
     }
+
+    .burger-menu{
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .burger-menu__icon {
+        object-fit: contain;
+        object-position: center;
+    }
+    
+    .header--mobile .nav__bar_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 52px;
+        margin-top: 177px;
+        margin-bottom: 240px;
+    }
+
     .skill__title{
         flex-direction: column;
         align-items: start;

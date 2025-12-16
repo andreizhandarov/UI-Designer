@@ -11,21 +11,33 @@
 </head>
 <body>
 
-    <div class="container">
+
         <header>
-            <div class="header">
-                <a class="logo" href="#" >Jayjay Dinero</a>
-                <nav>
-                    <div class="nav__header">
+            <div class="container">
+                <div class="header">
+                    <a class="logo" href="#" >Jayjay Dinero</a>
+                    <nav class="nav__header">
+                            <a class="nav__link" href="#">Home</a>
+                            <a class="nav__link" href="#">About me</a>
+                            <a class="nav__link" href="#">Projects</a>
+                            <a class="nav__link" href="#">Contact</a>
+                    </nav>
+    
+                    <button class="burger-menu" type="button">
+                        <img class="burger-menu__icon" src="/assets/images/burger-menu.svg" alt="">
+                    </button>
+                </div>
+                <div class="nav_bar">
+                    <nav class="nav__bar_mobile">
                         <a class="nav__link" href="#">Home</a>
                         <a class="nav__link" href="#">About me</a>
                         <a class="nav__link" href="#">Projects</a>
                         <a class="nav__link" href="#">Contact</a>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </header>
-    </div>
+
 
     <main>
         <div class="accent">
@@ -244,6 +256,8 @@
         </div>
         <p class="copy">@2022 Jayjay Dinero Dinero</p>
     </footer>
+
+    <script src="/scripts/script.js"></script>
 
 </body>
 </html>
